@@ -1,0 +1,16 @@
+{
+  "parserOptions": {
+    "ecmaVersion": 2020
+  },
+  "extends":["standard"],
+  "overrides": [
+    {
+      "files": ["*.js"],
+      "rules": {
+        "dot-notation": "off",
+        "no-new": "off",
+        "no-var": 1
+      }
+    }
+  ]
+}

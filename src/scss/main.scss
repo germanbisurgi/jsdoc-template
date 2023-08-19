@@ -1,0 +1,31 @@
+@import "variables";
+@import "../../node_modules/bootstrap/scss/bootstrap";
+
+body {
+  padding-top: 100px;
+}
+
+section {
+  @extend .mt-2;
+  @extend .mb-5;
+}
+
+article {
+  @extend .mb-3;
+}
+
+h2 {
+  text-transform: capitalize;
+}
+
+table {
+  border-collapse: collapse;
+  overflow: hidden;
+  min-width: 100%;
+}
+
+td, th {
+  border: 1px solid $border-color;
+  padding: 10px;
+  vertical-align: center;
+}
