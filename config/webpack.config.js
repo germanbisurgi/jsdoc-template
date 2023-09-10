@@ -1,12 +1,12 @@
 const HtmlWebpackPlugin = require('html-webpack-plugin')
-const { VueLoaderPlugin } = require('vue-loader');
+const { VueLoaderPlugin } = require('vue-loader')
 const webpack = require('webpack')
 const path = require('path')
 
 module.exports = {
   entry: './src/main.js',
   output: {
-    path: path.join(__dirname, '../dist')
+    path: path.join(__dirname, '../docs')
   },
   module: {
     rules: [

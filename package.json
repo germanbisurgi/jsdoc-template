@@ -7,7 +7,7 @@
   "license": "MIT",
   "scripts": {
     "dev": "webpack serve --mode development --config config/webpack.config.js",
-    "clean": "rimraf dist",
+    "clean": "rimraf docs",
     "prod": "yarn clean && webpack --mode production --config config/webpack.config.js"
   },
   "devDependencies": {
