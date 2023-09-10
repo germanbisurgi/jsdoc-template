@@ -14,7 +14,9 @@
     methods: {
       getReturnsNames (returns) {
         const reducer = (accumulator, currentValue) => {
-          accumulator.push(currentValue.type.names)
+          if (currentValue.type) {
+            accumulator.push(currentValue.type.names)
+          }
           return accumulator
         }
 
